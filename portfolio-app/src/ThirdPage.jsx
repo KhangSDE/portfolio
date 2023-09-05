@@ -4,7 +4,7 @@ import Editor from "@monaco-editor/react"
 function ThirdPage() {
     
     const showPDF = () => {
-        window.open("src/dateien/Lebenslauf_Khang_IT.pdf");
+        window.open("./dateien/Lebenslauf_Khang_IT.pdf");
     }
 
     const editorValue = `const vorname = "Duy Khang";
